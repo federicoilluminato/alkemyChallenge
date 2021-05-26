@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.box{
+  position: relative;
+  background: rgba(255,255,255,.3);
+  box-shadow: 0 5px 15px rgba(0,0,0,.6);
+}
+
+.shadow-css{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.9)
+}
+
+.badge-int{
+  color: blue;
+}
+
+.card{
+  font-size: 0.8rem;
+}
+
+.card h5{
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card h4{
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.centrar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.test{
+  width: 200px;
+}
+
+.bg-personal{
+  background: rgba(255,255,255,.3);
+  box-shadow: 0 5px 15px rgba(0,0,0,.6);
+}
+
+.badge{
+  font-weight: 400;
+}
+
+.margin-promedios{
+  margin: 3px;
+}
+
+.spinner-height{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
