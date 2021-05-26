@@ -29,7 +29,7 @@ const HeroInfo = ({details}) => {
         <p className="fs-5 bg-dark text-light p-2 m-2 rounded"><span className="fw-bold fs-xs-1">Lugar de Trabajo: </span>{details.work.base}</p>
         
         <div className="d-flex justify-content-center justify-content-lg-start pt-4">
-        <Link to={"/"}>
+        <Link to={"/alkemyChallenge/"}>
         <Button className="test">
         Volver Atrás
         </Button>  

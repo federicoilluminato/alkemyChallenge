@@ -25,9 +25,9 @@ const Layout = () => {
                 className="p-3"
                 style={{height:'auto'}}
                 >
-                    <Route exact path="/" component={Home}/>
-                    <Route exact path="/login" component={Login}/>
-                    <Route exacth path="/heroe/:id" component={HeroeDetail}/>
+                    <Route exact path="/alkemyChallenge/" component={Home}/>
+                    <Route exact path="/alkemyChallenge/login" component={Login}/>
+                    <Route exacth path="/alkemyChallenge/heroe/:id" component={HeroeDetail}/>
                 </div>
             </Container>
         </div>

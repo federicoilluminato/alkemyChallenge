@@ -45,7 +45,7 @@ const Login = () => {
                     // console.log(res);
                     console.log('redireccionando...')
                     localStorage.setItem('token', token)
-                    history.push('/')
+                    history.push('/alkemyChallenge/')
                 })
                 .catch((err) => {
                     console.log(`${err} Accesso denegado`);

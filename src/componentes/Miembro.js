@@ -74,7 +74,7 @@ const Miembro = ({member}) => {
                     </Card.Text>
                     
                     <div className="d-flex justify-content-evenly">
-                    <Link to ={`/heroe/${heroe.id}`}
+                    <Link to ={`/alkemyChallenge/heroe/${heroe.id}`}
                     >
                     <Button
                     variant={`${bgFnc()}`}
